@@ -28,9 +28,9 @@
 
 const goodBeer = new Promise((resolve, reject) => {
     setTimeout(() => {
-        if(true){
+        if (true) {
             resolve('Yay!');
-        }else{
+        } else {
             reject('Ups!');
         }
     }, 2000);
